@@ -1,0 +1,51 @@
+.toolbar {
+  background-color: #6c8bc7;
+  padding: 10px 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 55%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 20px;
+}
+
+.toolbar .content .modules {
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar .content .modules i {
+  display: block;
+  font-size: large;
+  margin-bottom: 5px;
+}
+
+.toolbar .content .modules li {
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.toolbar .content .modules .module .module-btn {
+  border: 0;
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: fit-content;
+  justify-content: center;
+}
+
+.toolbar .content .modules .module .module-btn:hover {
+  background-color: #607bb1;
+
+}
+
+.dialog-close {
+  border: 0;
+  background: transparent;
+  border-radius: 5px;
+  display: absolute;
+  float: right;
+  max-width: 18px;
+  max-height: 20px;
+}

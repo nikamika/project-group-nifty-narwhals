@@ -1,0 +1,14 @@
+.complete {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.incomplete {
+    font-weight: bold;
+}
+
+.overdue {
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
